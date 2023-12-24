@@ -6,4 +6,4 @@ This repository contains practice code for the course Algorithms & Data Structur
 
 ### Sorting
 
-- [Bubble Sort](src/algorithms/sorting/bubbleSort.js)
+- [Bubble Sort](src/sorting/bubbleSort.js)
