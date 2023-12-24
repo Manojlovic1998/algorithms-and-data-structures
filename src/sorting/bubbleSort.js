@@ -29,10 +29,10 @@ const swap = (arr, i, j) => {
  * bubbleSort([1, 2, 3, 4, 5]) // [1, 2, 3, 4, 5]
  **/
 const bubbleSort = (arr) => {
-  for (let i = 0; i < arr.length - 2; i++) {
+  for (let i = 0; i < arr.length - 1; i++) {
     let count = 0;
 
-    for (let j = 0; j < arr.length - 2; j++) {
+    for (let j = 0; j < arr.length - 1; j++) {
       if (arr[j + 1] < arr[j]) {
         swap(arr, j, j + 1);
         count++;
