@@ -7,3 +7,8 @@ This repository contains practice code for the course Algorithms & Data Structur
 ### Sorting
 
 - [Bubble Sort](src/sorting/bubbleSort.js)
+- [Insertion Sort](src/sorting/insertionSort.js)
+
+## Searching
+
+- [Binary Search](src/searching/binarySearch.js)
