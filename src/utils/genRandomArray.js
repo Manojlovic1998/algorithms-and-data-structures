@@ -11,6 +11,7 @@
  */
 const genRandomArray = (length, max) => {
   const arr = [];
+  if (!max) max = 10;
   for (let i = 0; i < length; i++) {
     arr.push(Math.floor(Math.random() * max));
   }

@@ -24,10 +24,14 @@ const bubbleSort = (arr) => {
     }
     if (count === 0) break;
   }
+
+  return arr;
 };
 
 const randomArr = genRandomArray(10, 100);
-console.log("Initial arr:", randomArr, "\n");
+// console.log("Initial arr:", randomArr, "\n");
 
 bubbleSort(randomArr);
-console.log("Sorted arr:", randomArr);
+// console.log("Sorted arr:", randomArr);
+
+module.exports = bubbleSort;
